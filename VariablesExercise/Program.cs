@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            string firstName = ("Parker");
+            string firstName = "Parker";
 
             int age = 30;
 
@@ -17,6 +17,8 @@
             decimal money = 100.25m;
             
             Console.WriteLine($"Hello, my name is {firstName}. I am {age} years old and I have {kids} kids.");
+            Console.WriteLine($"I slept for {hoursSlept} hours last night. If I told you I was smart that would be {isSmart} but I do have ${money}.");
+            
 
 
 
